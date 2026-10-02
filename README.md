@@ -46,37 +46,8 @@ MRI images belonging to the pituitary category
 No Tumor :
 MRI images without a tumor according to the dataset labels
 
-🔄 Project Workflow
-
-Brain MRI Images
-
-       ↓
-Data Collection
-       ↓
-Data Preprocessing
-       ↓
-Image Resizing & Normalization
-       ↓
-Data Augmentation
-       ↓
-Train / Validation / Test
-       ↓
-Pretrained CNN
-       ↓
-Feature Extraction
-       ↓
-Classification Layer
-       ↓
-Fine-Tuning
-       ↓
-Model Training
-       ↓
-Validation
-       ↓
-Model Evaluation
-       ↓
-Prediction
 🛠️ Technologies Used
+
 Python
 TensorFlow
 Keras
@@ -85,18 +56,22 @@ Matplotlib
 Computer Vision
 Convolutional Neural Networks (CNN)
 Transfer Learning
+
 🧩 Deep Learning Approach
+
 CNN
+
 CNNs are particularly useful for image-based tasks because they can automatically learn visual features such as:
 Edges
- ↓
+ 
 Textures
- ↓
+ 
 Shapes
- ↓
+ 
 Complex Features
- ↓
+ 
 Tumor-related Patterns
+
 Transfer Learning
 
 A pretrained CNN model is used as the starting point instead of training the entire network from scratch.
@@ -132,20 +107,25 @@ Training and validation curves can also be used to identify potential overfittin
 After training, a new MRI image can be passed to the model:
 
 MRI Image
-    ↓
+    
 Preprocessing
-    ↓
+    
 Trained CNN
-    ↓
+    
 Class Probabilities
-    ↓
+    
 Highest Probability
-    ↓
+    
 Predicted Class
+
 Example:
+
 Glioma       → 0.02
+
 Meningioma   → 0.94
+
 No Tumor     → 0.01
+
 Pituitary    → 0.03
 
 Prediction → Meningioma
@@ -162,6 +142,9 @@ Use a confusion matrix for detailed class-wise analysis
 Build a simple web application for image prediction.
 
 👩‍💻 Author
+
 Divya K
+
 BTech Graduate | AI/ML Learner
+
 Interested in Artificial Intelligence, Machine Learning, Deep Learning, and Computer Vision.
